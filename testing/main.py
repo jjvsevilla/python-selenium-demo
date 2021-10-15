@@ -4,7 +4,7 @@ from time import sleep
 from getpass import getuser
 
 base_url="http://the-internet.herokuapp.com/upload";
-driver=webdriver.Chrome(executable_path=f"/Users/{getuser()}/Git/python-selenium-demo/testing/driver/chromedriver")
+driver=webdriver.Chrome(executable_path=f"/Users/{getuser()}/Git/python-selenium-demo/testing/driver/current/chromedriver")
 driver.maximize_window()
 driver.implicitly_wait(10)
 driver.get(base_url)
