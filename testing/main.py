@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from getpass import getuser
 
-base_url="http://the-internet.herokuapp.com/upload";
+base_url="http://the-internet.herokuapp.com/upload"
 
 # Use on Linux VM
 # driver_str = "/home/vagrant/python-selenium-demo/testing/driver/current/chromedriver"
